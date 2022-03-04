@@ -1,6 +1,6 @@
 ## jest-playground
 
-install dependencies.
+Setup environment.
 
 ```
 ❯ node --version
@@ -10,18 +10,24 @@ v17.6.0
 1.22.17
 ```
 
+Install dependencies.
+
 ```
 ❯ yarn install
 ```
 
-run test suite.
+Run test suite.
 
 ```
-❯ yarn jest --silent --watch
+❯ yarn jest --silent --watchAll
 ```
 
-run code formatter.
+Run code formatter.
 
 ```
 ❯ yarn prettier . --write
 ```
+
+### References
+
+- Rico Sta. Cruz (Apr 2021): ["Setting up Jest with ESM"](https://gist.github.com/rstacruz/511f43265de4939f6ca729a3df7b001c)
