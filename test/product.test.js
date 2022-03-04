@@ -44,11 +44,11 @@ describe('product', () => {
     })
 
     // when:
-    mock('foo', Product.parse(product))
-    mock('bar', Product.parse(product))
+    mock('first', Product.parse(product))
+    mock('second', Product.parse(product))
 
     // then:
-    expect(mock).toHaveBeenCalledWith('foo', product)
+    expect(mock).toHaveBeenCalledWith('first', product)
   })
 })
 
